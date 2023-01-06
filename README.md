@@ -1,1 +1,3 @@
-coding-study
+CODING-STUDY
+
+DAILY COMMIT IS THE GOAL 🌱
