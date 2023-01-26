@@ -1,14 +1,14 @@
+#[2. K번째 수]
+
 import sys
 input = sys.stdin.readline
 T = int(input())
-
 for _ in range(T):  
     N,s,e,k = map(int, input().split())
     num = list(map(int, input().split()))
-
     num_list = num[s-1:e]
-    print(sorted(num_list)[k-1])
-    
+    print(sorted(num_list)[k-1]) 
+   
     
 ##정답
 import sys
