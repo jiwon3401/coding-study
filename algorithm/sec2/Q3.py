@@ -12,7 +12,6 @@ card = list(map(int, input().split()))
 
 card_comb = list(combinations(card,3))
 sum = set()
-list_sum = 0
 for i in range(len(card_comb)):
     list_sum = 0
     for j in range(3):
@@ -20,4 +19,5 @@ for i in range(len(card_comb)):
         sum.add(list_sum)
 
 print(list(sum)[len(sum)-K])
+
 
