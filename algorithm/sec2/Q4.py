@@ -10,7 +10,7 @@ import sys
 input = sys.stdin.readline
 N = int(input())
 score = list(map(int, input().split()))
-#avg = round(sum(score)/N,0) ##반올림이 아니라 그냥 올림이므로 round 사용하면 안됨 !
+#avg = round(sum(score)/N,0) #round는 가까운 짝수값으로 올려주므로 round 사용하면 안됨 !
 avg = int(sum(score)/N + 0.5)
 
 avgMin = float('inf')
