@@ -19,4 +19,3 @@ for i in range(len(sum_list)-1):
 #print(*sum_list)
 print(" ".join([str(i) for i in sum_list]))
 
-#sol
