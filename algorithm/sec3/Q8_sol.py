@@ -1,7 +1,7 @@
 import sys 
 input = sys.stdin.readline
 n = int(input())
-a = [list(map(int, input().split())) for _ in range(N)]
+a = [list(map(int, input().split())) for _ in range(n)]
 m = int(input())
 for i in range(m):
     h, t, k = map(int, input().split())
