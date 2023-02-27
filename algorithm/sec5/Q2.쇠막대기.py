@@ -19,6 +19,5 @@ for i in range(len(aa)):
             cnt+=len(stack)
         elif aa[i-1] ==')': # )) :막대기 끝지점
             stack.pop()
-            print(stack)
             cnt+= 1
 print(cnt)
